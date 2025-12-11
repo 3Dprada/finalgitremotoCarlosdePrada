@@ -1,0 +1,8 @@
+# syntax=doker/dockerfile:1 
+
+# Se inicia la imagen con un nodo 
+
+FROM node:18-alpine
+
+# Crear una aplicación directa
+RUN mkdir -p /app
